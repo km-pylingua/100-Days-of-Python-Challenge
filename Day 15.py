@@ -42,6 +42,7 @@ while coffee_pot_on==True:
 
     def update_resources(drink):
         #TODO-9: find what the user is asking for in the MENU and if it matches, subtract the amount of water/milk/coffee from resources
+        #TODO-13: if resource is below required amount of order requested, tell user there is not enough of the resource to make the drink
         water = menu[drink]["ingredients"]["water"]
         milk = menu[drink]["ingredients"]["milk"]
         coffee = menu[drink]["ingredients"]["coffee"]
@@ -103,7 +104,8 @@ while coffee_pot_on==True:
         print("Error. Please type in a valid order.")
 
 
-#TODO-13: if resource is below required amount of order requested, tell user there is not enough of the resource to make the drink
+
+
 
 
 
