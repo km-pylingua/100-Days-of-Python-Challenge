@@ -64,7 +64,7 @@ while coffee_pot_on==True:
         print("Water:", resources_spent["water"])
         print("Milk:", resources_spent["milk"])
         print("Coffee:", resources_spent["coffee"])
-        print(f"Money:", "$",total_spent)
+        print(f"Money: ${total_spent:.2f}")
 
     def coin_counter(drinks):
         current_spent=0
